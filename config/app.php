@@ -56,7 +56,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://localhost'), // remote S if SSL issue or running local.
+    'url' => env('APP_URL', 'https://localhost'), // remove S if SSL issue or running local.
 
     'asset_url' => env('ASSET_URL'),
 
