@@ -78,7 +78,9 @@ const submit = () => {
                         class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4"
                         role="alert"
                     >
-                        <p class="font-bold">Uh oh!</p>
+                        <p class="font-bold text-lg">
+                            Uh oh, something went wrong!
+                        </p>
                         <ul
                             class="mt-3 list-disc list-inside text-sm text-red-600"
                         >

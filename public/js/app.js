@@ -26177,8 +26177,8 @@ var _hoisted_7 = {
 };
 
 var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "font-bold"
-}, "Uh oh!", -1
+  "class": "font-bold text-lg"
+}, " Uh oh, something went wrong! ", -1
 /* HOISTED */
 );
 

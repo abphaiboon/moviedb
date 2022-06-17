@@ -38,7 +38,7 @@ class MoviesController extends Controller
             return Inertia::render('Welcome', [
                 'laravelVersion' => Application::VERSION,
                 'phpVersion' => PHP_VERSION,
-                'error' => 'Failed finding movie',
+                'error' => 'Sorry, we could not find the movie. Please enter a new name.',
                 'apiKey' => env('API_KEY') != "" && env('API_KEY') ? true : false,
             ]);
         }
