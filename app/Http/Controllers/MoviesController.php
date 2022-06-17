@@ -39,6 +39,7 @@ class MoviesController extends Controller
                 'laravelVersion' => Application::VERSION,
                 'phpVersion' => PHP_VERSION,
                 'error' => 'Failed finding movie',
+                'apiKey' => env('API_KEY') != "" && env('API_KEY') ? true : false,
             ]);
         }
 
@@ -46,7 +47,9 @@ class MoviesController extends Controller
         return Inertia::render('MovieDetails', [
             'laravelVersion' => Application::VERSION,
             'phpVersion' => PHP_VERSION,
-            'movie' => $movie
+            'movie' => $movie,
+            'apiKey' => env('API_KEY') != "" && env('API_KEY') ? true : false,
+
         ]);
     }
 

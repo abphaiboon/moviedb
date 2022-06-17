@@ -70,12 +70,27 @@ const submit = () => {
                 </div>
 
                 <BreezeValidationErrors class="mb-4 mt-4" />
-                <div v-if="error" class="mb-4 font-medium text-sm text-red-600">
-                    {{ error }}
+                <div
+                    v-if="error"
+                    class="mb-4 mt-4 font-medium text-sm text-red-600"
+                >
+                    <div
+                        class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4"
+                        role="alert"
+                    >
+                        <p class="font-bold">Uh oh!</p>
+                        <ul
+                            class="mt-3 list-disc list-inside text-sm text-red-600"
+                        >
+                            {{
+                                error
+                            }}
+                        </ul>
+                    </div>
                 </div>
 
                 <form @submit.prevent="submit" class="mt-4">
-                    <div>
+                    <div class="relative">
                         <BreezeInput
                             id="search"
                             type="text"
@@ -86,10 +101,8 @@ const submit = () => {
                             autocomplete="search"
                             placeholder="Enter a movie name..."
                         />
-                    </div>
-
-                    <div class="flex items-center justify-center mt-4">
                         <BreezeButton
+                            class="absolute inset-y-0 right-0 flex"
                             :class="{ 'opacity-25': form.processing }"
                             :disabled="form.processing"
                             >Search</BreezeButton
