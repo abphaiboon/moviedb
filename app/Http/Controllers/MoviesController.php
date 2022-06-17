@@ -20,7 +20,8 @@ class MoviesController extends Controller
             'canRegister' => Route::has('register'),
             'laravelVersion' => Application::VERSION,
             'phpVersion' => PHP_VERSION,
-            'error' => ''
+            'error' => '',
+            'apiKey' => env('API_KEY') != "" && env('API_KEY') ? true : false,
         ]);
     }
 

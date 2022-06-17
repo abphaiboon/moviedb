@@ -11,6 +11,7 @@ defineProps({
     laravelVersion: String,
     phpVersion: String,
     error: String,
+    apiKey: Boolean,
 });
 
 const form = useForm({
@@ -52,6 +53,11 @@ const submit = () => {
 
         <div>
             <BreezeValidationErrors class="mb-4 mt-4" />
+
+            <div v-if="!apiKey" class="mb-4 font-medium text-sm text-red-600">
+                No MovieDB API Key connected. Please modify the .env file and
+                place one (API_KEY=)
+            </div>
 
             <div v-if="error" class="mb-4 font-medium text-sm text-red-600">
                 {{ error }}
