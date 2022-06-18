@@ -46,7 +46,7 @@ defineProps({
         </div>
 
         <!-- Movie Details -->
-        <div class="flex flex-row mt-3">
+        <div class="flex flex-row flex-wrap mt-3">
             <div class="basis-1/4 text-right">
                 <img
                     v-bind:src="movie.base_url + '/w780' + movie.poster_path"

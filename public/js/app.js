@@ -25996,7 +25996,7 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_3 = {
-  "class": "flex flex-row mt-3"
+  "class": "flex flex-row flex-wrap mt-3"
 };
 var _hoisted_4 = {
   "class": "basis-1/4 text-right"
