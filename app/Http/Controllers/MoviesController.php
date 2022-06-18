@@ -28,7 +28,7 @@ class MoviesController extends Controller
     public function SearchMovie(Request $request)
     {
         $request->validate([
-            'search' => ['min:1|required']
+            'search' => 'min:1|required'
         ]);
 
         $mdb = new MovieDb();
