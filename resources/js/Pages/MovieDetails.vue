@@ -76,22 +76,48 @@ defineProps({
         </div>
         <h2 class="text-white font-extrabold text-xl mt-4">Cast</h2>
 
-        <div class="flex flex-row flex-wrap mt-2 overflow-auto">
+        <div class="flex flex-row flex-wrap mt-2">
             <div
                 v-for="(cast, key) in movie.cast"
                 :key="key"
-                class="bg-slate-700 rounded-md flex-initial basis-1/5 m-2"
+                class="flex-initial basis-1/5 m-2 p-2 min-h-fit"
+                style="min-height: 200px"
             >
                 <img
+                    v-if="cast.profile_path"
                     v-bind:src="movie.base_url + 'original' + cast.profile_path"
                     class="rounded-tr-md rounded-tl-md"
-                    v-if="cast.profile_path"
                 />
-                <div class="p-2">
-                    <h2 class="text-white text-md font-bold">
+                <div
+                    v-if="!cast.profile_path"
+                    class="bg-slate-600 rounded-tr-md rounded-tl-md items-center justify-center flex"
+                    style="min-height: 191px"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-20 w-20 fill-slate-400"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                </div>
+
+                <div
+                    class="bg-slate-800 rounded-bl-md rounded-br-md p-2 min-h-max"
+                >
+                    <h2
+                        class="mt-auto text-white text-md font-bold text-center align-text-bottom"
+                    >
                         {{ cast.name }}
                     </h2>
-                    <h2 class="text-white text-sm font-medium">
+                    <h2
+                        class="text-white text-sm font-medium text-center italic"
+                    >
                         {{ cast.character }}
                     </h2>
                 </div>
