@@ -26,8 +26,8 @@
                     <Popover class="relative" v-slot="{ open }">
                         <PopoverButton
                             :class="[
-                                open ? 'text-gray-100' : 'text-gray-200',
-                                'group bg-white dark:bg-slate-700 px-2 rounded-md inline-flex items-center text-base font-medium hover:text-emerald-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500',
+                                open ? 'text-gray-400' : 'text-gray-400',
+                                'group bg-white dark:bg-slate-700 px-2 rounded-md inline-flex items-center text-base font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500',
                             ]"
                         >
                             <span>Movies</span>
@@ -49,7 +49,7 @@
                             leave-to-class="opacity-0 translate-y-1"
                         >
                             <PopoverPanel
-                                class="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0"
+                                class="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0 border-2 border-slate-500 rounded-lg"
                             >
                                 <div
                                     class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
@@ -90,8 +90,8 @@
                     <Popover class="relative" v-slot="{ open }">
                         <PopoverButton
                             :class="[
-                                open ? 'text-gray-100' : 'text-gray-200',
-                                'group bg-white dark:bg-slate-700 px-2 rounded-md inline-flex items-center text-base font-medium hover:text-emerald-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500',
+                                open ? 'text-gray-400' : 'text-gray-400',
+                                'group bg-white dark:bg-slate-700 px-2 rounded-md inline-flex items-center text-base font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500',
                             ]"
                         >
                             <span>TV Shows</span>
@@ -113,7 +113,7 @@
                             leave-to-class="opacity-0 translate-y-1"
                         >
                             <PopoverPanel
-                                class="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0"
+                                class="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0 border-2 border-slate-500 rounded-lg"
                             >
                                 <div
                                     class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"

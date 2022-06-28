@@ -25191,7 +25191,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref) {
               var open = _ref.open;
               return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["PopoverButton"], {
-                "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([open ? 'text-gray-100' : 'text-gray-200', 'group bg-white dark:bg-slate-700 px-2 rounded-md inline-flex items-center text-base font-medium hover:text-emerald-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500'])
+                "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([open ? 'text-gray-400' : 'text-gray-400', 'group bg-white dark:bg-slate-700 px-2 rounded-md inline-flex items-center text-base font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500'])
               }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
                   return [_hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["ChevronDownIcon"], {
@@ -25216,7 +25216,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
                   return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["PopoverPanel"], {
-                    "class": "absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0"
+                    "class": "absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0 border-2 border-slate-500 rounded-lg"
                   }, {
                     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
                       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.movieLinks, function (item) {
@@ -25257,7 +25257,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref2) {
               var open = _ref2.open;
               return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["PopoverButton"], {
-                "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([open ? 'text-gray-100' : 'text-gray-200', 'group bg-white dark:bg-slate-700 px-2 rounded-md inline-flex items-center text-base font-medium hover:text-emerald-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500'])
+                "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([open ? 'text-gray-400' : 'text-gray-400', 'group bg-white dark:bg-slate-700 px-2 rounded-md inline-flex items-center text-base font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500'])
               }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
                   return [_hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["ChevronDownIcon"], {
@@ -25282,7 +25282,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
               }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
                   return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["PopoverPanel"], {
-                    "class": "absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0"
+                    "class": "absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0 border-2 border-slate-500 rounded-lg"
                   }, {
                     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
                       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.tvLinks, function (item) {
