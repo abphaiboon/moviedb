@@ -4,14 +4,6 @@ defineProps({
     average: Number,
 });
 
-// const displayStar = (rating) => {
-//     let i = 0;
-//     while (i > rating) {
-//         i++;
-//         return i;
-//     }
-// };
-
 const getWhole = (rating) => {
     return Math.floor(rating);
 };
@@ -19,9 +11,6 @@ const getWhole = (rating) => {
 
 <template>
     <ul class="flex justify-left text-white">
-        {{
-            rating
-        }}
         <li v-for="index in getWhole(rating)" :key="index">
             <svg
                 aria-hidden="true"
