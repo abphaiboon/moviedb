@@ -31,25 +31,10 @@ const submit = () => {
     <BreezeGuestLayout
         v-bind:laravel-version="laravelVersion"
         v-bind:php-version="phpVersion"
+        v-bind:api-key="apiKey"
     >
         <div>
-            <!-- Missing API Key message -->
-            <div
-                v-if="!apiKey"
-                class="mb-4 mt-3 font-medium text-sm text-red-600"
-            >
-                <div
-                    class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4"
-                    role="alert"
-                >
-                    <p class="font-bold">Missing API Key</p>
-                    <ul class="mt-3 list-disc list-inside text-sm text-red-600">
-                        Please modify the .env file and place one (API_KEY=)
-                    </ul>
-                </div>
-            </div>
-
-            <div v-else>
+            <div>
                 <div
                     class="flex items-center bg-slate-500 text-white text-sm font-bold px-4 py-3 rounded-sm"
                     role="alert"
