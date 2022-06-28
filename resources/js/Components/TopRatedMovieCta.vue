@@ -8,7 +8,7 @@ defineProps({
 
 <template>
     <div
-        class="shadow-2xl mx-auto text-center py-12 border-b-2 border-slate-700"
+        class="shadow-2xl mx-auto text-center md:py-12 border-b-2 border-slate-700 py-1"
         :style="
             movie.backdrop_path != ''
                 ? {
@@ -20,27 +20,26 @@ defineProps({
                           ')',
                       'background-size': '100% auto',
                       'background-repeat': 'no-repeat',
-                      'background-position': 'center',
+                      'background-position': 'top center',
                   }
                 : {}
         "
     >
         <!-- Popular Movie Details -->
         <div class="max-w-7xl mx-auto">
-            <div class="flex flex-row mt-2">
-                <div class="basis-1/4">
+            <div class="flex sm:flex-row flex-col mt-2 sm:mt-0">
+                <div class="basis-1/4 px-2">
                     <img
                         v-bind:src="
                             movie.base_url + '/w780' + movie.poster_path
                         "
-                        style="max-width: 350px"
-                        class="rounded-lg"
+                        class="rounded-lg w-64 block mx-auto"
                         v-if="movie.poster_path"
                     />
                 </div>
-                <div class="basis-3/4 px-4 text-left">
+                <div class="basis-3/4 px-4 text-left sm:pt-4">
                     <span
-                        class="text-xs inline-block py-2 px-3 leading-none text-center whitespace-nowrap align-baseline font-bold bg-yellow-400 text-black rounded-full"
+                        class="text-xs inline-block py-2 px-3 leading-none text-center whitespace-nowrap align-baseline font-bold bg-yellow-400 text-black rounded-full mt-4 md:mt-0"
                         >Popular</span
                     >
                     <h2 class="my-1 text-white font-bold text-2xl">
@@ -61,7 +60,7 @@ defineProps({
                     <p class="text-white text-md mt-2">{{ movie.overview }}</p>
 
                     <Rating
-                        class="mt-5"
+                        class="mt-5 mb-6 md:mb-0"
                         v-bind:rating="movie.stars"
                         v-bind:average="movie.vote_average"
                     />

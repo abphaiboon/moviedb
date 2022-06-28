@@ -25645,18 +25645,18 @@ var _hoisted_1 = {
   "class": "max-w-7xl mx-auto"
 };
 var _hoisted_2 = {
-  "class": "flex flex-row mt-2"
+  "class": "flex sm:flex-row flex-col mt-2 sm:mt-0"
 };
 var _hoisted_3 = {
-  "class": "basis-1/4"
+  "class": "basis-1/4 px-2"
 };
 var _hoisted_4 = ["src"];
 var _hoisted_5 = {
-  "class": "basis-3/4 px-4 text-left"
+  "class": "basis-3/4 px-4 text-left sm:pt-4"
 };
 
 var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "text-xs inline-block py-2 px-3 leading-none text-center whitespace-nowrap align-baseline font-bold bg-yellow-400 text-black rounded-full"
+  "class": "text-xs inline-block py-2 px-3 leading-none text-center whitespace-nowrap align-baseline font-bold bg-yellow-400 text-black rounded-full mt-4 md:mt-0"
 }, "Popular", -1
 /* HOISTED */
 );
@@ -25687,20 +25687,17 @@ var _hoisted_12 = {
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
-    "class": "shadow-2xl mx-auto text-center py-12 border-b-2 border-slate-700",
+    "class": "shadow-2xl mx-auto text-center md:py-12 border-b-2 border-slate-700 py-1",
     style: (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeStyle)($props.movie.backdrop_path != '' ? {
       'background-image': 'linear-gradient(rgba(0,0,0,0.83), rgba(0,0,0,0.83)),url(' + $props.movie.secure_base_url + 'original' + $props.movie.backdrop_path + ')',
       'background-size': '100% auto',
       'background-repeat': 'no-repeat',
-      'background-position': 'center'
+      'background-position': 'top center'
     } : {})
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Popular Movie Details "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [$props.movie.poster_path ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
     key: 0,
     src: $props.movie.base_url + '/w780' + $props.movie.poster_path,
-    style: {
-      "max-width": "350px"
-    },
-    "class": "rounded-lg"
+    "class": "rounded-lg w-64 block mx-auto"
   }, null, 8
   /* PROPS */
   , _hoisted_4)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [_hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.movie.original_title) + " (" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.movie.release_year) + ") ", 1
@@ -25714,7 +25711,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   ), _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.movie.overview), 1
   /* TEXT */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Rating"], {
-    "class": "mt-5",
+    "class": "mt-5 mb-6 md:mb-0",
     rating: $props.movie.stars,
     average: $props.movie.vote_average
   }, null, 8
@@ -26034,7 +26031,7 @@ var _hoisted_4 = {
   key: 1
 };
 var _hoisted_5 = {
-  "class": "flex flex-col sm:pt-0 bg-slate-900 items-center"
+  "class": "flex flex-col sm:pt-0 bg-slate-900 items-center mx-3 md:mx-0"
 };
 var _hoisted_6 = {
   "class": "text-slate-400 text-xs my-4"

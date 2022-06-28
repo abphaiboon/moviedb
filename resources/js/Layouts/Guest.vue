@@ -37,7 +37,9 @@ defineProps({
 
         <TopRatedMovieCta v-bind:movie="popularMovie" />
 
-        <div class="flex flex-col sm:pt-0 bg-slate-900 items-center">
+        <div
+            class="flex flex-col sm:pt-0 bg-slate-900 items-center mx-3 md:mx-0"
+        >
             <div
                 class="w-full sm:max-w-sm lg:max-w-3xl mt-6 px-6 py-4 mx-3 bg-white dark:bg-slate-800 shadow-md overflow-hidden sm:rounded-lg"
                 :style="
