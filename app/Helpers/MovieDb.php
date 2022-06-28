@@ -87,7 +87,7 @@ class MovieDb
                 return false;
             }
 
-            $movieData = $response->object()->results[0];
+            $movieData = $response->object()->results[random_int(0, 19)];
             $movieData->base_url = $this->base_url;
             $movieData->secure_base_url = $this->secure_base_url;
             return $movieData;

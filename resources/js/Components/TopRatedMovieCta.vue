@@ -39,6 +39,10 @@ defineProps({
                     />
                 </div>
                 <div class="basis-3/4 px-4 text-left">
+                    <span
+                        class="text-xs inline-block py-2 px-3 leading-none text-center whitespace-nowrap align-baseline font-bold bg-yellow-400 text-black rounded-full"
+                        >Popular</span
+                    >
                     <h2 class="my-1 text-white font-bold text-2xl">
                         {{ movie.original_title }} ({{ movie.release_year }})
                     </h2>
@@ -53,11 +57,11 @@ defineProps({
                         {{ movie.tagline }}
                     </h3>
 
-                    <h4 class="font-extrabold mt-6 text-white">Overview</h4>
+                    <h4 class="font-extrabold mt-7 text-white">Overview</h4>
                     <p class="text-white text-md mt-2">{{ movie.overview }}</p>
 
                     <Rating
-                        class="mt-3"
+                        class="mt-5"
                         v-bind:rating="movie.stars"
                         v-bind:average="movie.vote_average"
                     />

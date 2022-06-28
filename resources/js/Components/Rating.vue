@@ -19,6 +19,9 @@ const getWhole = (rating) => {
 
 <template>
     <ul class="flex justify-left text-white">
+        {{
+            rating
+        }}
         <li v-for="index in getWhole(rating)" :key="index">
             <svg
                 aria-hidden="true"
@@ -37,7 +40,7 @@ const getWhole = (rating) => {
             </svg>
         </li>
 
-        <li v-for="index in Math.round(rating - getWhole(rating))" :key="index">
+        <li v-for="index in Math.ceil(rating - getWhole(rating))" :key="index">
             <svg
                 aria-hidden="true"
                 focusable="false"
