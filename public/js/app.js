@@ -26034,7 +26034,7 @@ var _hoisted_4 = {
   key: 1
 };
 var _hoisted_5 = {
-  "class": "min-h-screen flex flex-col sm:pt-0 bg-slate-900 items-center"
+  "class": "flex flex-col sm:pt-0 bg-slate-900 items-center"
 };
 var _hoisted_6 = {
   "class": "text-slate-400 text-xs my-4"
