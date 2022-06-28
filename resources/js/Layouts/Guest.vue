@@ -1,5 +1,6 @@
 <script setup>
 import Nav from "@/Components/Nav.vue";
+import TopRatedMovieCta from "@/Components/TopRatedMovieCta.vue";
 
 defineProps({
     laravelVersion: String,
@@ -8,6 +9,7 @@ defineProps({
     canLogin: Boolean,
     canRegister: Boolean,
     apiKey: Boolean,
+    popularMovie: Object,
 });
 </script>
 
@@ -32,6 +34,9 @@ defineProps({
 
     <div v-else>
         <Nav />
+
+        <TopRatedMovieCta v-bind:movie="popularMovie" />
+
         <div
             class="min-h-screen flex flex-col sm:justify-center items-center pt-3 sm:pt-0 bg-slate-900"
         >

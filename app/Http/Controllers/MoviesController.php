@@ -15,6 +15,8 @@ class MoviesController extends Controller
 {
     public function index()
     {
+        $mdb = new MovieDb();
+        $movie = self::__movieDetails($mdb->PopularMovie()->id);
         return Inertia::render('Welcome', [
             'canLogin' => Route::has('login'),
             'canRegister' => Route::has('register'),
@@ -22,6 +24,7 @@ class MoviesController extends Controller
             'phpVersion' => PHP_VERSION,
             'error' => '',
             'apiKey' => env('API_KEY') != "" && env('API_KEY') ? true : false,
+            'popularMovie' => $movie
         ]);
     }
 
@@ -65,6 +68,8 @@ class MoviesController extends Controller
         $movie->release_date = Carbon::parse($movie->release_date)->format('m/d/Y');
 
         $movie->cast = array_slice($mdb->MovieCredits($movieId)->cast, 0, 10);
+
+        $movie->stars = $movie->vote_average / 2;
 
         return $movie;
     }

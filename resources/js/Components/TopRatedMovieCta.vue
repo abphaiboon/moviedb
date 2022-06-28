@@ -1,0 +1,68 @@
+<script setup>
+import Rating from "@/Components/Rating.vue";
+
+defineProps({
+    movie: Object,
+});
+</script>
+
+<template>
+    <div
+        class="shadow-2xl mx-auto text-center py-12 border-b-2 border-slate-700"
+        :style="
+            movie.backdrop_path != ''
+                ? {
+                      'background-image':
+                          'linear-gradient(rgba(0,0,0,0.83), rgba(0,0,0,0.83)),url(' +
+                          movie.secure_base_url +
+                          'original' +
+                          movie.backdrop_path +
+                          ')',
+                      'background-size': '100% auto',
+                      'background-repeat': 'no-repeat',
+                      'background-position': 'center',
+                  }
+                : {}
+        "
+    >
+        <!-- Popular Movie Details -->
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-row mt-2">
+                <div class="basis-1/4">
+                    <img
+                        v-bind:src="
+                            movie.base_url + '/w780' + movie.poster_path
+                        "
+                        style="max-width: 350px"
+                        class="rounded-lg"
+                        v-if="movie.poster_path"
+                    />
+                </div>
+                <div class="basis-3/4 px-4 text-left">
+                    <h2 class="my-1 text-white font-bold text-2xl">
+                        {{ movie.original_title }} ({{ movie.release_year }})
+                    </h2>
+                    <h4 class="text-white text-sm">
+                        Release Date: {{ movie.release_date }} <br />
+                        Runtime: {{ movie.runtime }}
+                    </h4>
+
+                    <h3
+                        class="text-white text-lg font-medium mt-4 italic border-l-2 border-emerald-400 pl-2"
+                    >
+                        {{ movie.tagline }}
+                    </h3>
+
+                    <h4 class="font-extrabold mt-6 text-white">Overview</h4>
+                    <p class="text-white text-md mt-2">{{ movie.overview }}</p>
+
+                    <Rating
+                        class="mt-3"
+                        v-bind:rating="movie.stars"
+                        v-bind:average="movie.vote_average"
+                    />
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

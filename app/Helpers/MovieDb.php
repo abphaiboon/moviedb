@@ -77,4 +77,22 @@ class MovieDb
             return $th;
         }
     }
+
+    public function PopularMovie()
+    {
+        try {
+            $response = Http::get('https://api.themoviedb.org/3/movie/popular?api_key=' . $this->api_key . '&language=en-US&page=1');
+
+            if (!$response->ok()) {
+                return false;
+            }
+
+            $movieData = $response->object()->results[0];
+            $movieData->base_url = $this->base_url;
+            $movieData->secure_base_url = $this->secure_base_url;
+            return $movieData;
+        } catch (\Throwable $th) {
+            return $th;
+        }
+    }
 }
