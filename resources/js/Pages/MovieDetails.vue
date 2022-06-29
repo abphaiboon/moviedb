@@ -7,6 +7,7 @@ defineProps({
     movie: Object,
     laravelVersion: String,
     phpVersion: String,
+    apiKey: Boolean,
 });
 </script>
 
@@ -19,8 +20,9 @@ defineProps({
         v-bind:laravel-version="laravelVersion"
         v-bind:php-version="phpVersion"
         v-bind:background-image="
-            movie.base_url + 'original' + movie.backdrop_path
+            movie.secure_base_url + 'original' + movie.backdrop_path
         "
+        v-bind:api-key="apiKey"
     >
         <div>
             <Link

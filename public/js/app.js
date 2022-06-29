@@ -24776,7 +24776,8 @@ __webpack_require__.r(__webpack_exports__);
   props: {
     movie: Object,
     laravelVersion: String,
-    phpVersion: String
+    phpVersion: String,
+    apiKey: Boolean
   },
   setup: function setup(__props, _ref) {
     var expose = _ref.expose;
@@ -26037,11 +26038,12 @@ var _hoisted_6 = {
   "class": "text-slate-400 text-xs my-4"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Missing API Key message "), !$props.apiKey ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3)) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Nav"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["TopRatedMovieCta"], {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Missing API Key message "), !$props.apiKey ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3)) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Nav"]), $props.popularMovie ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)($setup["TopRatedMovieCta"], {
+    key: 0,
     movie: $props.popularMovie
   }, null, 8
   /* PROPS */
-  , ["movie"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  , ["movie"])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "w-full sm:max-w-sm lg:max-w-3xl mt-6 px-6 py-4 mx-3 bg-white dark:bg-slate-800 shadow-md overflow-hidden sm:rounded-lg",
     style: (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeStyle)(!$props.backgroundImage ? {} : {
       'background-image': 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(' + $props.backgroundImage + ')',
@@ -26823,7 +26825,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   , ["title"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["BreezeGuestLayout"], {
     "laravel-version": $props.laravelVersion,
     "php-version": $props.phpVersion,
-    "background-image": $props.movie.base_url + 'original' + $props.movie.backdrop_path
+    "background-image": $props.movie.secure_base_url + 'original' + $props.movie.backdrop_path,
+    "api-key": $props.apiKey
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Link"], {
@@ -26882,7 +26885,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["laravel-version", "php-version", "background-image"])], 64
+  , ["laravel-version", "php-version", "background-image", "api-key"])], 64
   /* STABLE_FRAGMENT */
   );
 }

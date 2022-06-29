@@ -35,7 +35,7 @@ defineProps({
     <div v-else>
         <Nav />
 
-        <TopRatedMovieCta v-bind:movie="popularMovie" />
+        <TopRatedMovieCta v-bind:movie="popularMovie" v-if="popularMovie" />
 
         <div
             class="flex flex-col sm:pt-0 bg-slate-900 items-center mx-3 md:mx-0"
