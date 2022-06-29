@@ -22,7 +22,7 @@
                         <MenuIcon class="h-6 w-6" aria-hidden="true" />
                     </PopoverButton>
                 </div>
-                <PopoverGroup as="nav" class="hidden md:flex space-x-10">
+                <!-- <PopoverGroup as="nav" class="hidden md:flex space-x-10">
                     <Popover class="relative" v-slot="{ open }">
                         <PopoverButton
                             :class="[
@@ -150,7 +150,7 @@
                             </PopoverPanel>
                         </transition>
                     </Popover>
-                </PopoverGroup>
+                </PopoverGroup> -->
                 <div
                     class="hidden md:flex items-center justify-end md:flex-1 lg:w-0"
                 >
@@ -204,7 +204,7 @@
                                 </PopoverButton>
                             </div>
                         </div>
-                        <div class="mt-6">
+                        <!-- <div class="mt-6">
                             <nav class="grid gap-y-8">
                                 <a
                                     v-for="item in links"
@@ -224,7 +224,7 @@
                                     </span>
                                 </a>
                             </nav>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="py-6 px-5 space-y-6">
                         <div>

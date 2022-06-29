@@ -25133,49 +25133,7 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Movies", -1
-/* HOISTED */
-);
-
-var _hoisted_7 = {
-  "class": "rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
-};
-var _hoisted_8 = {
-  "class": "relative grid gap-6 bg-white dark:bg-slate-700 px-5 py-6 sm:gap-8 sm:p-8"
-};
-var _hoisted_9 = ["href"];
-var _hoisted_10 = {
-  "class": "ml-4"
-};
-var _hoisted_11 = {
-  "class": "text-base font-medium text-gray-100"
-};
-var _hoisted_12 = {
-  "class": "mt-1 text-sm text-gray-100"
-};
-
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "TV Shows", -1
-/* HOISTED */
-);
-
-var _hoisted_14 = {
-  "class": "rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
-};
-var _hoisted_15 = {
-  "class": "relative grid gap-6 bg-white dark:bg-slate-700 px-5 py-6 sm:gap-8 sm:p-8"
-};
-var _hoisted_16 = ["href"];
-var _hoisted_17 = {
-  "class": "ml-4"
-};
-var _hoisted_18 = {
-  "class": "text-base font-medium text-gray-100"
-};
-var _hoisted_19 = {
-  "class": "mt-1 text-sm text-gray-100"
-};
-
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "hidden md:flex items-center justify-end md:flex-1 lg:w-0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#",
@@ -25187,37 +25145,26 @@ var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_21 = {
+var _hoisted_7 = {
   "class": "rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white dark:bg-slate-900 divide-y-2 divide-gray-50/20"
 };
-var _hoisted_22 = {
+var _hoisted_8 = {
   "class": "pt-5 pb-6 px-5"
 };
-var _hoisted_23 = {
+var _hoisted_9 = {
   "class": "flex items-center justify-between"
 };
-var _hoisted_24 = {
+var _hoisted_10 = {
   "class": "-mr-2"
 };
 
-var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "sr-only"
 }, "Close menu", -1
 /* HOISTED */
 );
 
-var _hoisted_26 = {
-  "class": "mt-6"
-};
-var _hoisted_27 = {
-  "class": "grid gap-y-8"
-};
-var _hoisted_28 = ["href"];
-var _hoisted_29 = {
-  "class": "ml-3 text-base font-medium text-gray-100"
-};
-
-var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "py-6 px-5 space-y-6"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#",
@@ -25259,149 +25206,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         _: 1
         /* STABLE */
 
-      })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["PopoverGroup"], {
-        as: "nav",
-        "class": "hidden md:flex space-x-10"
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Popover"], {
-            "class": "relative"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref) {
-              var open = _ref.open;
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["PopoverButton"], {
-                "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([open ? 'text-gray-400' : 'text-gray-400', 'group bg-white dark:bg-slate-700 px-2 rounded-md inline-flex items-center text-base font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500'])
-              }, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["ChevronDownIcon"], {
-                    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([open ? 'text-gray-100' : 'text-gray-200', 'ml-2 h-5 w-5 group-hover:text-gray-300']),
-                    "aria-hidden": "true"
-                  }, null, 8
-                  /* PROPS */
-                  , ["class"])];
-                }),
-                _: 2
-                /* DYNAMIC */
-
-              }, 1032
-              /* PROPS, DYNAMIC_SLOTS */
-              , ["class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
-                "enter-active-class": "transition ease-out duration-200",
-                "enter-from-class": "opacity-0 translate-y-1",
-                "enter-to-class": "opacity-100 translate-y-0",
-                "leave-active-class": "transition ease-in duration-150",
-                "leave-from-class": "opacity-100 translate-y-0",
-                "leave-to-class": "opacity-0 translate-y-1"
-              }, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["PopoverPanel"], {
-                    "class": "absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0 border-2 border-slate-500 rounded-lg"
-                  }, {
-                    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.movieLinks, function (item) {
-                        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-                          key: item.name,
-                          href: item.href,
-                          "class": "-m-3 p-3 flex items-start rounded-lg hover:bg-slate-800"
-                        }, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)((0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveDynamicComponent)(item.icon), {
-                          "class": "flex-shrink-0 h-6 w-6 text-emerald-600",
-                          "aria-hidden": "true"
-                        })), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.name), 1
-                        /* TEXT */
-                        ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.description), 1
-                        /* TEXT */
-                        )])], 8
-                        /* PROPS */
-                        , _hoisted_9);
-                      }), 64
-                      /* STABLE_FRAGMENT */
-                      ))])])];
-                    }),
-                    _: 1
-                    /* STABLE */
-
-                  })];
-                }),
-                _: 1
-                /* STABLE */
-
-              })];
-            }),
-            _: 1
-            /* STABLE */
-
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Popover"], {
-            "class": "relative"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref2) {
-              var open = _ref2.open;
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["PopoverButton"], {
-                "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([open ? 'text-gray-400' : 'text-gray-400', 'group bg-white dark:bg-slate-700 px-2 rounded-md inline-flex items-center text-base font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500'])
-              }, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["ChevronDownIcon"], {
-                    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([open ? 'text-gray-600' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-100']),
-                    "aria-hidden": "true"
-                  }, null, 8
-                  /* PROPS */
-                  , ["class"])];
-                }),
-                _: 2
-                /* DYNAMIC */
-
-              }, 1032
-              /* PROPS, DYNAMIC_SLOTS */
-              , ["class"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
-                "enter-active-class": "transition ease-out duration-200",
-                "enter-from-class": "opacity-0 translate-y-1",
-                "enter-to-class": "opacity-100 translate-y-0",
-                "leave-active-class": "transition ease-in duration-150",
-                "leave-from-class": "opacity-100 translate-y-0",
-                "leave-to-class": "opacity-0 translate-y-1"
-              }, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["PopoverPanel"], {
-                    "class": "absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0 border-2 border-slate-500 rounded-lg"
-                  }, {
-                    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.tvLinks, function (item) {
-                        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-                          key: item.name,
-                          href: item.href,
-                          "class": "-m-3 p-3 flex items-start rounded-lg hover:bg-slate-800"
-                        }, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)((0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveDynamicComponent)(item.icon), {
-                          "class": "flex-shrink-0 h-6 w-6 text-emerald-600",
-                          "aria-hidden": "true"
-                        })), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.name), 1
-                        /* TEXT */
-                        ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.description), 1
-                        /* TEXT */
-                        )])], 8
-                        /* PROPS */
-                        , _hoisted_16);
-                      }), 64
-                      /* STABLE_FRAGMENT */
-                      ))])])];
-                    }),
-                    _: 1
-                    /* STABLE */
-
-                  })];
-                }),
-                _: 1
-                /* STABLE */
-
-              })];
-            }),
-            _: 1
-            /* STABLE */
-
-          })];
-        }),
-        _: 1
-        /* STABLE */
-
-      }), _hoisted_20])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Mobile Menu "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+      })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <PopoverGroup as=\"nav\" class=\"hidden md:flex space-x-10\">\n                    <Popover class=\"relative\" v-slot=\"{ open }\">\n                        <PopoverButton\n                            :class=\"[\n                                open ? 'text-gray-400' : 'text-gray-400',\n                                'group bg-white dark:bg-slate-700 px-2 rounded-md inline-flex items-center text-base font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500',\n                            ]\"\n                        >\n                            <span>Movies</span>\n                            <ChevronDownIcon\n                                :class=\"[\n                                    open ? 'text-gray-100' : 'text-gray-200',\n                                    'ml-2 h-5 w-5 group-hover:text-gray-300',\n                                ]\"\n                                aria-hidden=\"true\"\n                            />\n                        </PopoverButton>\n\n                        <transition\n                            enter-active-class=\"transition ease-out duration-200\"\n                            enter-from-class=\"opacity-0 translate-y-1\"\n                            enter-to-class=\"opacity-100 translate-y-0\"\n                            leave-active-class=\"transition ease-in duration-150\"\n                            leave-from-class=\"opacity-100 translate-y-0\"\n                            leave-to-class=\"opacity-0 translate-y-1\"\n                        >\n                            <PopoverPanel\n                                class=\"absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0 border-2 border-slate-500 rounded-lg\"\n                            >\n                                <div\n                                    class=\"rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden\"\n                                >\n                                    <div\n                                        class=\"relative grid gap-6 bg-white dark:bg-slate-700 px-5 py-6 sm:gap-8 sm:p-8\"\n                                    >\n                                        <a\n                                            v-for=\"item in movieLinks\"\n                                            :key=\"item.name\"\n                                            :href=\"item.href\"\n                                            class=\"-m-3 p-3 flex items-start rounded-lg hover:bg-slate-800\"\n                                        >\n                                            <component\n                                                :is=\"item.icon\"\n                                                class=\"flex-shrink-0 h-6 w-6 text-emerald-600\"\n                                                aria-hidden=\"true\"\n                                            />\n                                            <div class=\"ml-4\">\n                                                <p\n                                                    class=\"text-base font-medium text-gray-100\"\n                                                >\n                                                    {{ item.name }}\n                                                </p>\n                                                <p\n                                                    class=\"mt-1 text-sm text-gray-100\"\n                                                >\n                                                    {{ item.description }}\n                                                </p>\n                                            </div>\n                                        </a>\n                                    </div>\n                                </div>\n                            </PopoverPanel>\n                        </transition>\n                    </Popover>\n\n                    <Popover class=\"relative\" v-slot=\"{ open }\">\n                        <PopoverButton\n                            :class=\"[\n                                open ? 'text-gray-400' : 'text-gray-400',\n                                'group bg-white dark:bg-slate-700 px-2 rounded-md inline-flex items-center text-base font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500',\n                            ]\"\n                        >\n                            <span>TV Shows</span>\n                            <ChevronDownIcon\n                                :class=\"[\n                                    open ? 'text-gray-600' : 'text-gray-400',\n                                    'ml-2 h-5 w-5 group-hover:text-gray-100',\n                                ]\"\n                                aria-hidden=\"true\"\n                            />\n                        </PopoverButton>\n\n                        <transition\n                            enter-active-class=\"transition ease-out duration-200\"\n                            enter-from-class=\"opacity-0 translate-y-1\"\n                            enter-to-class=\"opacity-100 translate-y-0\"\n                            leave-active-class=\"transition ease-in duration-150\"\n                            leave-from-class=\"opacity-100 translate-y-0\"\n                            leave-to-class=\"opacity-0 translate-y-1\"\n                        >\n                            <PopoverPanel\n                                class=\"absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0 border-2 border-slate-500 rounded-lg\"\n                            >\n                                <div\n                                    class=\"rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden\"\n                                >\n                                    <div\n                                        class=\"relative grid gap-6 bg-white dark:bg-slate-700 px-5 py-6 sm:gap-8 sm:p-8\"\n                                    >\n                                        <a\n                                            v-for=\"item in tvLinks\"\n                                            :key=\"item.name\"\n                                            :href=\"item.href\"\n                                            class=\"-m-3 p-3 flex items-start rounded-lg hover:bg-slate-800\"\n                                        >\n                                            <component\n                                                :is=\"item.icon\"\n                                                class=\"flex-shrink-0 h-6 w-6 text-emerald-600\"\n                                                aria-hidden=\"true\"\n                                            />\n                                            <div class=\"ml-4\">\n                                                <p\n                                                    class=\"text-base font-medium text-gray-100\"\n                                                >\n                                                    {{ item.name }}\n                                                </p>\n                                                <p\n                                                    class=\"mt-1 text-sm text-gray-100\"\n                                                >\n                                                    {{ item.description }}\n                                                </p>\n                                            </div>\n                                        </a>\n                                    </div>\n                                </div>\n                            </PopoverPanel>\n                        </transition>\n                    </Popover>\n                </PopoverGroup> "), _hoisted_6])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Mobile Menu "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
         "enter-active-class": "duration-200 ease-out",
         "enter-from-class": "opacity-0 scale-95",
         "enter-to-class": "opacity-100 scale-100",
@@ -25415,7 +25220,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             "class": "absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Link"], {
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Link"], {
                 href: "/"
               }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
@@ -25426,11 +25231,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 _: 1
                 /* STABLE */
 
-              })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["PopoverButton"], {
+              })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["PopoverButton"], {
                 "class": "bg-white dark:bg-slate-700 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-100 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-emerald-500"
               }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_25, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["XIcon"], {
+                  return [_hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["XIcon"], {
                     "class": "h-6 w-6",
                     "aria-hidden": "true"
                   })];
@@ -25438,22 +25243,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 _: 1
                 /* STABLE */
 
-              })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_27, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.links, function (item) {
-                return (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-                  key: item.name,
-                  href: item.href,
-                  "class": "-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
-                }, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)((0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveDynamicComponent)(item.icon), {
-                  "class": "flex-shrink-0 h-6 w-6 text-emerald-600",
-                  "aria-hidden": "true"
-                })), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.name), 1
-                /* TEXT */
-                )], 8
-                /* PROPS */
-                , _hoisted_28);
-              }), 64
-              /* STABLE_FRAGMENT */
-              ))])])]), _hoisted_30])];
+              })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"mt-6\">\n                            <nav class=\"grid gap-y-8\">\n                                <a\n                                    v-for=\"item in links\"\n                                    :key=\"item.name\"\n                                    :href=\"item.href\"\n                                    class=\"-m-3 p-3 flex items-center rounded-md hover:bg-gray-50\"\n                                >\n                                    <component\n                                        :is=\"item.icon\"\n                                        class=\"flex-shrink-0 h-6 w-6 text-emerald-600\"\n                                        aria-hidden=\"true\"\n                                    />\n                                    <span\n                                        class=\"ml-3 text-base font-medium text-gray-100\"\n                                    >\n                                        {{ item.name }}\n                                    </span>\n                                </a>\n                            </nav>\n                        </div> ")]), _hoisted_12])];
             }),
             _: 1
             /* STABLE */
